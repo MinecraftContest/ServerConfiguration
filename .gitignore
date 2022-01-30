@@ -29,3 +29,6 @@ plugins/PlotSquared/storage.db
 plugins/PlotSquared/backups/
 plugins/PlotSquared/schematics/*
 !plugins/PlotSquared/schematics/plot.schem
+
+# LuckPerms
+plugins/LuckPerms/*.db
