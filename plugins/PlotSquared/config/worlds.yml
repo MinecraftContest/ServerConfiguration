@@ -18,7 +18,7 @@ worlds:
       filling: stone
       height: 65
     road:
-      width: 7
+      width: 16
       height: 65
       block: quartz_block
       flags: {}

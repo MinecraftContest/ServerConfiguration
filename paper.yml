@@ -1,10 +1,10 @@
 # This is the main configuration file for Paper.
 # As you can see, there's tons to configure. Some options may impact gameplay, so use
 # with caution, and make sure you know what each option does before configuring.
-#
+# 
 # If you need help with the configuration or have any questions related to Paper,
 # join us in our Discord or IRC channel.
-#
+# 
 # Discord: https://discord.gg/papermc
 # IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
 # Website: https://papermc.io/ 
@@ -106,8 +106,21 @@ settings:
         interval: 4.0
         max-packet-rate: 5.0
         action: DROP
+  chunk-loading:
+    min-load-radius: 2
+    max-concurrent-sends: 2
+    autoconfig-send-distance: true
+    target-player-chunk-send-rate: 100.0
+    global-max-chunk-send-rate: -1.0
+    enable-frustum-priority: false
+    global-max-chunk-load-rate: -1.0
+    player-max-concurrent-loads: 4.0
+    global-max-concurrent-loads: 500.0
 world-settings:
   default:
+    fix-wither-targeting-bug: false
+    seed-based-feature-search: true
+    seed-based-feature-search-loads-chunks: true
     disable-teleportation-suffocation-check: false
     delay-chunk-unloads-by: 10s
     generator-settings:
@@ -348,3 +361,7 @@ world-settings:
           validatenearbypoi: -1
     feature-seeds:
       generate-random-seeds-for-all: false
+    viewdistances:
+      no-tick-view-distance: -1
+    squid-spawn-height:
+      maximum: 0.0
