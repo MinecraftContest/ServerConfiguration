@@ -13,6 +13,8 @@ banned-players.json
 usercache.json
 version_history.json
 banned-ips.json
+whitelist.json
+ops.json
 
 # jars
 **/*.jar
