@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "530fa97a-357f-3c19-94d3-0c5c65c18fe8",
+    "name": "test",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "842d002e-2493-3b28-a3a8-5ab05dc151c9",
+    "name": "CraftCoderr",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "87197a7a-9cac-3bd2-a108-34ffb014dddb",
+    "name": "test0",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,0 +1,29 @@
+# hidden
+**/*.kate-swp
+.console_history
+
+# folders
+logs/
+cache/
+libraries/
+versions/
+
+# files
+banned-players.json
+usercache.json
+version_history.json
+banned-ips.json
+
+# jars
+**/*.jar
+
+# worlds
+world/
+plots/
+
+# PlotSquared
+plugins/PlotSquared/user_cache.db
+plugins/PlotSquared/storage.db
+plugins/PlotSquared/backups/
+plugins/PlotSquared/schematics/*
+!plugins/PlotSquared/schematics/plot.schem
