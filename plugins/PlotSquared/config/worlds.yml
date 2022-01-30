@@ -16,16 +16,16 @@ worlds:
       block: stone_slab
       block_claimed: sandstone_slab
       filling: stone
-      height: 62
+      height: 65
     road:
       width: 7
-      height: 62
+      height: 65
       block: quartz_block
       flags: {}
     misc_spawn_unowned: false
     home:
-      nonmembers: 272,64,0
-      default: 272,64,0
+      nonmembers: 270,67,2
+      default: 270,67,2
     schematic:
       specify_on_claim: false
       on_claim: true
