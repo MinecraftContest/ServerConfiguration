@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "generatedBy": "Console",
+    "generatedAt": "2022-01-30 22:03:04 MSK"
+  },
+  "groups": {
+    "default": {
+      "nodes": [
+        {
+          "type": "permission",
+          "key": "chatguard.clearchat",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "fawe.permpack.basic",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.home",
+          "value": true
+        }
+      ]
+    },
+    "leader": {
+      "nodes": [
+        {
+          "type": "inheritance",
+          "key": "group.default",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.auto",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.plot.1",
+          "value": true
+        }
+      ]
+    }
+  },
+  "tracks": {
+    "base": {
+      "groups": [
+        "default",
+        "leader"
+      ]
+    }
+  },
+  "users": {}
+}
