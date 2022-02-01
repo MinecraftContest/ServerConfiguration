@@ -1,0 +1,20 @@
+updater:
+  auto_update: false
+folder_size:
+  maximum_enabled: true
+  maximum_value: 1024
+amount:
+  maximum_enabled: true
+  maximum_value: 45
+config:
+  version: 1.0
+  autoBackup: true
+  backupTickInterval: 288000
+  worldsToBackup:
+  - plots
+  format:
+    tag: '&3[&bQuickSave&3]'
+    perms: '&cNo permission.'
+    noWorld: '&cWorld not Found in Config.'
+    reload: '&aReloaded.'
+    saving: '&aStarting new backup.'
