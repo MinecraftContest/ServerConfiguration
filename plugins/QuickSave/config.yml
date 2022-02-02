@@ -5,11 +5,11 @@ folder_size:
   maximum_value: 1024
 amount:
   maximum_enabled: true
-  maximum_value: 45
+  maximum_value: 70
 config:
   version: 1.0
   autoBackup: true
-  backupTickInterval: 288000
+  backupTickInterval: 804000
   worldsToBackup:
   - plots
   format:
