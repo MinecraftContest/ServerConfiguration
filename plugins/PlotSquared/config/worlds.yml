@@ -41,9 +41,9 @@ worlds:
         claim: 100
       use: false
     world:
-      max_height: 256
+      max_height: 110
       gamemode: creative
-      min_height: 1
+      min_height: 61
       border: false
     event:
       spawn:
