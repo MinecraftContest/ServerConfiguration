@@ -61,7 +61,7 @@ Punishment settings:
   max mute time: 1h
   # you can add any reason with any name how many as you want(but for what?)
   reasons:
-    '1': '{Player} kicked because he is bad boy'
+    '1': 'because he is bad boy'
     second: '{Player} banned for capsing'
     another: '{Player} killed for spamming'
     flooder: Our chat was flooded because of {Player}
@@ -72,8 +72,7 @@ Punishment settings:
     # common commands will be executed if custom is false, you can use any reason described in reasons section
     # just use {Reason_(name)} tag
     common commands:
-    - kill {Player}
-    - ban {Player} 1d {Reason_1} {Reason_silent}
+    - kick {Player} {Reason_1}
     swear commands:
     - mute {Player} {Reason_mute-time}
     - broadcast {Reason_1}
